@@ -1,0 +1,19 @@
+<template>
+    <lightning-card title="Edit Account" icon-name="custom:custom18">
+        <lightning-record-edit-form object-api-name="Account" record-id={recordId}>
+            <div class="slds-grid slds-var-m-around_medium">
+                <div class="slds-col slds-size_1-of-2">
+                    <lightning-input-field field-name="Name"></lightning-input-field>
+                    <lightning-input-field field-name="Phone"></lightning-input-field>
+                </div>
+                <div class="slds-col slds-size_1-of-2">
+                    <lightning-input-field field-name="Industry"></lightning-input-field>
+                    <lightning-input-field field-name="AnnualRevenue"></lightning-input-field>
+                </div>
+            </div>
+            <div class="slds-var-m-around_medium">
+                <lightning-button type="submit" variant="brand" label="Edit"></lightning-button>
+            </div>
+        </lightning-record-edit-form>
+    </lightning-card>
+</template>

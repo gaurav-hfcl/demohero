@@ -1,0 +1,9 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+	
+        <aura:attribute type="String" name="text" default="raj"/>
+<div>
+<p>
+            {!v.text} 
+</p>
+</div>
+</aura:component>

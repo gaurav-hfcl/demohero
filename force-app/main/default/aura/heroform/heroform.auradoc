@@ -1,0 +1,6 @@
+<aura:documentation>
+<aura:description>Documentation</aura:description>
+<aura:example name="regForm" ref="c:heroform" label="Hero Fincorp Employee Registration Form">
+		Example Description
+</aura:example>
+</aura:documentation>
